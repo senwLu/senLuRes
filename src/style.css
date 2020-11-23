@@ -155,7 +155,7 @@ body {
   margin: 5px;
   text-align: center;
   background-color: #e2e3e7;
-  box-shadow: 3px 3px 10px #666666;
+  box-shadow: 2px 2px 10px #5f5f5f;
   border-radius: 2.5vw;
 }
 
@@ -164,6 +164,21 @@ body {
   font-size: calc(0.5em + 0.8vw);
   font-weight: 500;
   color: black;
+}
+
+.project-box-back {
+  display: none;
+}
+
+.project-box:hover .project-box-front {
+  display: none;
+}
+
+.project-box:hover .project-box-back {
+  display: block;
+  padding-left: 2vw;
+  margin-top: -2vw;
+  text-align: left;
 }
 
 
@@ -178,6 +193,7 @@ body {
   text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
   color: #e2e3e7;
 }
+
 
 /* strikethrough Animation */
 .strike {
@@ -195,7 +211,6 @@ body {
   top: 50%;
   margin-top: -2.5px;
   background: #f44336;
-  /* background: rgb(96, 191, 255); */
 }
 
 .strike:before {
@@ -203,13 +218,11 @@ body {
 }
 .strike:after {
   right: 2.5px;
-  /* background: rgb(96, 191, 255); */
   background: #f44336;
   transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
 }
 
 .strike:hover:before {
-  /* background: rgb(96, 191, 255); */
   background: #f44336;
   width: 100%;
   transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
@@ -235,6 +248,7 @@ body {
   flex-basis: 0;
   flex: 1;
 }
+
 
 /* Slide animation */
 .slide-right {
@@ -275,6 +289,7 @@ body {
   }
 }
 
+
 .slide-left {
   -webkit-animation: slide-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   animation: slide-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
@@ -312,6 +327,7 @@ body {
     transform: translateX(-100px);
   }
 }
+
 
 .slide-top {
   -webkit-animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
