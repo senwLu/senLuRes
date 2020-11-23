@@ -81,6 +81,97 @@ body {
   color: rgb(28, 29, 31);
 }
 
+/***************************************************/
+
+/* Left side */
+.left-container {
+  height: 100%;
+  margin-right: 500px;
+  max-width: 1250px;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0px 5vw 0px 0px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: calc(0.5em + 0.42vw);
+}
+
+/***************************************************/
+
+/* Home Section */
+.home-wrapper img {
+  display: block;
+  margin: -1.5vw auto 0 22vw;
+  width: 30vw;
+}
+
+/***************************************************/
+
+/* About Section */
+.aboutme-wrapper {
+  width: 42vw;
+  /* margin: 200px auto 200px 420px; */
+  margin: 165px auto -5px 420px;
+  font-size: calc(0.5em + 1.2vw);
+}
+
+.aboutskill-wrapper {
+  width: 42vw;
+  margin: 120px auto 0px 320px;
+  font-size: calc(0.5em + 0.42vw);
+}
+
+.about-col-img {
+  width: 70%;
+  margin-left: 10%;
+}
+
+.c1 {
+  width: 70%;
+}
+
+.about-style {
+  color: #f44336;
+}
+
+
+/***************************************************/
+
+/* Projects Section */
+.projects-holder {
+  padding-left: 10vw;
+  padding-top: 7vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+
+}
+.project-box {
+  width: 15vw;
+  height: 15vw;
+  margin: 5px;
+  text-align: center;
+  background-color: #e2e3e7;
+  box-shadow: 3px 3px 10px #666666;
+  border-radius: 2.5vw;
+}
+
+.project-box p {
+  margin-top: 6.5vw;
+  font-size: calc(0.5em + 0.8vw);
+  font-weight: 500;
+  color: black;
+}
+
+
+
+/***************************************************/
+
+
+
 /* change regular font to outline-font */
 
 .change-to-outline {
@@ -128,53 +219,6 @@ body {
   background: transparent;
   width: 100%;
   transition: 0s;
-}
-
-/* Left side */
-.left-container {
-  height: 100%;
-  margin-right: 500px;
-  max-width: 1250px;
-  width: 100%;
-  margin-right: auto;
-  margin-left: auto;
-  padding: 0px 5vw 0px 0px;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 600;
-}
-
-/* Home Section */
-.home-wrapper img {
-  display: block;
-  margin: -1.5vw auto 0 22vw;
-  width: 30vw;
-}
-
-/* About Section */
-.aboutme-wrapper {
-  width: 42vw;
-  /* margin: 200px auto 200px 420px; */
-  margin: 165px auto -5px 420px;
-  font-size: calc(0.5em + 1.2vw);
-}
-
-.aboutskill-wrapper {
-  width: 42vw;
-  margin: 120px auto 0px 320px;
-  font-size: calc(0.5em + 0.42vw);
-}
-
-.about-col-img {
-  width: 70%;
-  margin-left: 10%;
-}
-
-.c1 {
-  width: 70%;
-}
-
-.about-style {
-  color: #f44336;
 }
 
 /* Split tags */

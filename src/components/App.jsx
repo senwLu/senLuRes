@@ -6,9 +6,8 @@ class App extends Component {
   constructor(props) {
       super(props);
       this.state = {
-          page: "about"
+          page: "projects"
       };
-
       this.changePage = this.changePage.bind(this);
   };
   
